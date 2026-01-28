@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW student.v_parcels_final
+CREATE OR REPLACE VIEW student.v_parcels_final_Aiden_Olsen
 SELECT
     defaultdb.enterprise.parcels_core.pin,
     defaultdb.enterprise.parcels_core.acres_poly,
@@ -16,4 +16,5 @@ WHERE
     defaultdb.enterprise.parcels_core.acres_poly < 5 
     AND 
     defaultdb.enterprise.parcel_sales.sale_value > 700000
+
 ;
